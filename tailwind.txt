@@ -1,0 +1,28 @@
+-You must create a tailwind.config.js to use tw intellisense.you can leave it empty.
+-----------------------------------------------------------------------------------
+-Dont use sm for mobile devices.
+-design what you want in mobile then use sm for larger screens
+-md:max-lg we can also set range
+-if we want to extend something in config:
+    theme:{
+        extend:{
+            colors:{
+                'abc:'#1fb6ff',
+            },
+
+            borderRadius:{
+                '8xl': '96rem'
+            }
+
+        }
+    }
+-if we want to simply mention our own name:
+
+    theme:{
+        colors:{
+            'purple': #fffff
+        }
+    }
+
+tips: if you want to use flex you must wrap the content you want to flex in a div.
+tips: align-items:center is items-center in tw.
